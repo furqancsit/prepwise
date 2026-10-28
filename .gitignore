@@ -1,0 +1,82 @@
+# Dependencies
+node_modules/
+.npm/
+.pnpm-store/
+
+# Environment variables
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+.vite/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Runtime data
+*.pid
+*.pid.lock
+
+# Testing
+test-results/
+
+# Uploads / user-generated files
+uploads/
+
+# MongoDB local data
+data/
+
+# Optional: local configuration
+*.local
+
+# Security / certificates
+*.pem
+*.key
+
+# Vercel
+.vercel/
+
+# Misc
+*.orig
