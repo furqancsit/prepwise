@@ -7,8 +7,11 @@ import { AuthContextProvider } from "./auth/context/authContextProvider.jsx";
 
 const googleClientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e269103bb87213ce0b97f124348183aa22fb983e
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <GoogleOAuthProvider clientId={googleClientId}>

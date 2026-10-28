@@ -4,6 +4,7 @@ node_modules/
 .pnpm-store/
 
 # Environment variables
+<<<<<<< HEAD
 
 # Environment variables and secrets
 .env
@@ -12,6 +13,9 @@ node_modules/
 !.env.*.example
 
 
+=======
+.env
+>>>>>>> e269103bb87213ce0b97f124348183aa22fb983e
 .env.local
 .env.development.local
 .env.test.local

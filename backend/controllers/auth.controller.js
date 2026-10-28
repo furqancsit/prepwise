@@ -153,6 +153,7 @@ const logout = (req, res) => {
   });
 };
 
+<<<<<<< HEAD
 const updateProfile = async (req, res) => {
   try {
     const { name } = req.body;
@@ -243,3 +244,6 @@ const changePassword = async (req, res) => {
   
 
 export { register, login, getMe, logout, updateProfile, changePassword };
+=======
+export { register, login, getMe, logout };
+>>>>>>> e269103bb87213ce0b97f124348183aa22fb983e

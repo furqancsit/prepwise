@@ -1,0 +1,10 @@
+* [33m9fac4b6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Initial commit: Prepwise AI interview platform
+* [33me269103[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update project name and enhance README content
+* [33m1899dcb[m feat(security): add global and authentication-specific rate limiting
+* [33m35a65e1[m feat(auth): add email/password and Google authentication with protected routes
+* [33m15d4fa0[m feat(auth): add Google login with JWT cookie authentication
+* [33m5c5073a[m feat: add authentication middleware
+* [33m9c37e16[m feat: add authentication routes
+* [33m2f7a561[m feat: add authentication controllers
+* [33md0bdc3f[m feat: add user registration
+* [33m722c5bb[m feat: setup express server

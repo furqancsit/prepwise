@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import { ArrowRight, BrainCircuit, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -66,3 +67,14 @@ export default function About() {
     </main>
   );
 }
+=======
+import React from 'react'
+
+const About = () => {
+  return (
+    <div>About</div>
+  )
+}
+
+export default About
+>>>>>>> e269103bb87213ce0b97f124348183aa22fb983e

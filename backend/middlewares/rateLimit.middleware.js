@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { rateLimit, ipKeyGenerator } from "express-rate-limit";
+=======
+import rateLimit from "express-rate-limit";
+>>>>>>> e269103bb87213ce0b97f124348183aa22fb983e
 
 const createAuthLimiter = ({ windowMs, limit, message }) => {
   return rateLimit({
@@ -15,6 +19,7 @@ const createAuthLimiter = ({ windowMs, limit, message }) => {
   });
 };
 
+<<<<<<< HEAD
 // AI interview generation and evaluation
 export const aiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
@@ -38,6 +43,8 @@ export const aiLimiter = rateLimit({
   },
 });
 
+=======
+>>>>>>> e269103bb87213ce0b97f124348183aa22fb983e
 export const globalLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   limit: 300,

@@ -27,11 +27,14 @@ const userSchema = new mongoose.Schema(
       unique: true,
       sparse: true,
     },
+<<<<<<< HEAD
     plan:{
       type : String,
       enum:["free", "paid"],
       default : "free"
     }
+=======
+>>>>>>> e269103bb87213ce0b97f124348183aa22fb983e
   },
   {
     timestamps: true,

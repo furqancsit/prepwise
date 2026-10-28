@@ -13,8 +13,11 @@
     "@react-oauth/google": "^0.13.5",
     "@tailwindcss/vite": "^4.3.3",
     "axios": "^1.20.0",
+<<<<<<< HEAD
     "express-rate-limit": "^8.7.1",
     "lucide-react": "^1.55.0",
+=======
+>>>>>>> e269103bb87213ce0b97f124348183aa22fb983e
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.4",

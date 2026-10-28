@@ -6,20 +6,29 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
+<<<<<<< HEAD
     
+=======
+>>>>>>> e269103bb87213ce0b97f124348183aa22fb983e
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
+<<<<<<< HEAD
     "@google/genai": "^2.30.0",
+=======
+>>>>>>> e269103bb87213ce0b97f124348183aa22fb983e
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "dotenv": "^18.0.5",
     "express": "^5.2.1",
+<<<<<<< HEAD
     "express-rate-limit": "^8.7.1",
+=======
+>>>>>>> e269103bb87213ce0b97f124348183aa22fb983e
     "google-auth-library": "^11.1.0",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.11.0",
